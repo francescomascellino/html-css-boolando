@@ -155,8 +155,8 @@ nav a:hover {
 }
 
 .discount {
-    background-color: var(--bool-red);
-
+    color: var(--bool-red);
+    font-weight: bold;
 }
 
 .price {
@@ -193,10 +193,14 @@ nav a:hover {
     color: var(--bool-red)
 }
 
-.tag,
+.discount_tag,
 .green {
     padding: 0.2rem 0.5rem;
     margin-right: 0.3rem;
+}
+
+.discount_tag {
+    background-color: var(--bool-red);
 }
 
 .green {
@@ -208,7 +212,7 @@ nav a:hover {
 /* #region FOOTER */
 
 footer {
-    margin: 3rem;
+    margin-top: 3rem;
     background-color: var(--bool-footer);
     height: 3rem;
 }
