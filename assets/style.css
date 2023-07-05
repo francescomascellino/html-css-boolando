@@ -1,16 +1,84 @@
+/* #region GLOBAL RULES */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
+:root {
+    --col-width: calc(100%/12 *4)
+}
 
+body {
+    font-family: helvetica, sans-serif;
     min-width: 1600px;
 }
 
 .container {
     width: 80%;
-    max-width: 1170px;
+    /* max-width: 1170px; */
     margin: auto;
 }
+
+.store_container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+/* #endregion GLOBAL RULES */
+
+/* #region DEBUG */
+
+.debug,
+.debug nav,
+.debug .user_menu,
+.debug .categories,
+.debug .logo,
+.debug a,
+.debug span,
+.debug [class^="product"] {
+    border: 1px solid red;
+}
+
+/* #endregion DEBUG */
+
+/* region #navbar */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.categories a {
+    margin: 0 0.1rem;
+}
+
+.logo {
+    height: 2rem;
+}
+
+.user_menu p {
+    display: inline-block;
+    margin: 0 0.1rem;
+}
+
+/* #endregion navbar */
+
+/* #region STORE MAIN SECTION */
+
+.product_card {
+    width: var(--col-width) -1rem
+}
+
+.product_front {
+    width: 100%;
+    display: block;
+}
+
+/* #endregion STORE MAIN SECTION */
