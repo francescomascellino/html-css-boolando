@@ -26,12 +26,18 @@ body {
     margin: auto;
 }
 
-.store_container {
-    width: 80%;
+.wrapper {
     display: flex;
-    margin: auto;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+a {
+    color: var(--bool-light)
+}
+
+a {
+    text-decoration: none;
 }
 
 /* #endregion GLOBAL RULES */
@@ -70,10 +76,6 @@ nav {
     padding: 1rem 0;
 }
 
-nav a {
-    text-decoration: none;
-}
-
 nav a:hover {
     text-decoration: underline;
 }
@@ -108,7 +110,6 @@ nav a:hover {
 /* #region STORE MAIN SECTION */
 
 .product_card {
-    /* width: var(--col-width) -1rem */
     width: 32.3%;
     padding-top: 3rem;
 }
@@ -119,7 +120,6 @@ nav a:hover {
 }
 
 .product_back {
-    /* position: absolute; */
     top: 0;
     z-index: -1;
     width: 100%;
@@ -214,7 +214,15 @@ nav a:hover {
 footer {
     margin-top: 3rem;
     background-color: var(--bool-footer);
-    height: 3rem;
+    color: var(--bool-light);
+    padding: 2rem 0;
 }
+
+h4,
+h5 {
+    margin-bottom: 0.5rem;
+}
+
+
 
 /* #endregion FOOTER */
