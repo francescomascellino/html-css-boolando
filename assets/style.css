@@ -17,7 +17,6 @@ body {
 
 .container {
     width: 80%;
-    /* max-width: 1170px; */
     margin: auto;
 }
 
@@ -77,7 +76,7 @@ nav {
 .product_card {
     /* width: var(--col-width) -1rem */
     width: 32.3%;
-    padding: 3rem 0;
+    padding-top: 3rem;
 }
 
 .product_front {
@@ -85,4 +84,16 @@ nav {
     display: block;
 }
 
+.product_desc a {
+    display: block;
+}
+
 /* #endregion STORE MAIN SECTION */
+
+/* #region FOOTER */
+
+footer {
+    padding-top: 3rem;
+}
+
+/* #endregion FOOTER */
