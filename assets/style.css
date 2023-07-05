@@ -118,6 +118,22 @@ nav a:hover {
     display: block;
 }
 
+.product_back {
+    /* position: absolute; */
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    display: none;
+}
+
+.product_card:hover .product_front {
+    display: none;
+}
+
+.product_card:hover .product_back {
+    display: block;
+}
+
 .product_desc a {
     display: block;
     color: var(--bool-dark);
@@ -192,8 +208,9 @@ nav a:hover {
 /* #region FOOTER */
 
 footer {
-    padding-top: 3rem;
+    margin: 3rem;
     background-color: var(--bool-footer);
+    height: 3rem;
 }
 
 /* #endregion FOOTER */
