@@ -137,7 +137,6 @@ nav a:hover {
 .product_desc a {
     display: block;
     color: var(--bool-dark);
-    text-decoration: none;
 }
 
 .product_desc a:hover {
@@ -219,10 +218,23 @@ footer {
 }
 
 h4,
-h5 {
+h6 {
     margin-bottom: 0.5rem;
 }
 
+footer a {
+    margin-right: 0.3rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: var(--bool-light);
+}
 
+footer .social a {
+    font-size: 1rem;
+}
+
+footer .info a:hover {
+    text-decoration: underline;
+}
 
 /* #endregion FOOTER */
