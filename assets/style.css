@@ -59,6 +59,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 nav {
@@ -149,7 +150,6 @@ nav a:hover {
 
 .product_img {
     position: relative;
-    z-index: -10;
 }
 
 .discount_info {
