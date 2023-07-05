@@ -218,19 +218,17 @@ footer {
 }
 
 h4,
-h6 {
+h5 {
     margin-bottom: 0.5rem;
 }
 
 footer a {
-    margin-right: 0.3rem;
-    font-size: 0.7rem;
-    font-weight: bold;
+    margin-right: 0.5rem;
     color: var(--bool-light);
 }
 
 footer .social a {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 footer .info a:hover {
