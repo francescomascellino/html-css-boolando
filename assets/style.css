@@ -12,6 +12,7 @@
     --bool-light: #ffffff;
     --bool-dark: #000000;
     --bool-red: #ff0000;
+    --bool-green: #008000;
     --bool-footer: #1a1a1a;
 }
 
@@ -31,7 +32,6 @@ body {
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 /* #endregion GLOBAL RULES */
@@ -85,8 +85,6 @@ nav a:hover {
     width: 20%;
     text-align: end;
 }
-
-
 
 .categories a {
     margin: 0 0.25rem;
@@ -149,7 +147,45 @@ nav a:hover {
     text-decoration: line-through;
 }
 
+.product_img {
+    position: relative;
+    z-index: -10;
+}
 
+.discount_info {
+    color: var(--bool-light);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+
+}
+
+.like {
+    background-color: var(--bool-light);
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    aspect-ratio: 1/1;
+    position: absolute;
+    right: 0;
+    top: 0.5rem
+}
+
+.like:hover {
+    color: var(--bool-red)
+}
+
+.tag,
+.green {
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.3rem;
+}
+
+.green {
+    background-color: var(--bool-green);
+}
 
 /* #endregion STORE MAIN SECTION */
 
