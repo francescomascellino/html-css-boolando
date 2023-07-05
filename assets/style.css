@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    min-width: 1600px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
