@@ -40,6 +40,12 @@ a {
     text-decoration: none;
 }
 
+nav a:hover,
+footer .info a:hover,
+.product_desc a:hover {
+    text-decoration: underline;
+}
+
 /* #endregion GLOBAL RULES */
 
 /* #region DEBUG */
@@ -69,15 +75,8 @@ header {
 }
 
 nav {
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     padding: 1rem 0;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 .categories {
@@ -137,10 +136,6 @@ nav a:hover {
 .product_desc a {
     display: block;
     color: var(--bool-dark);
-}
-
-.product_desc a:hover {
-    text-decoration: underline;
 }
 
 .brand,
@@ -229,10 +224,6 @@ footer a {
 
 footer .social a {
     font-size: 1.5rem;
-}
-
-footer .info a:hover {
-    text-decoration: underline;
 }
 
 /* #endregion FOOTER */
